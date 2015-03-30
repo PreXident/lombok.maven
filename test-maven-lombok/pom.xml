@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.projectlombok</groupId>
+    <groupId>custom</groupId>
     <artifactId>lombok-maven</artifactId>
-    <version>1.16.2.1-SNAPSHOT</version>
+    <version>1.16.3</version>
   </parent>
-  <groupId>org.projectlombok.test</groupId>
+  <groupId>custom.test</groupId>
   <artifactId>test-maven-lombok</artifactId>
   <packaging>jar</packaging>
   <name>Sample Lombok Maven Project</name>
@@ -13,7 +13,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.projectlombok</groupId>
+        <groupId>custom</groupId>
         <artifactId>lombok-maven-plugin</artifactId>
         <version>${project.version}</version>
         <executions>
@@ -55,7 +55,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>org.projectlombok</groupId>
+            <groupId>custom</groupId>
             <artifactId>lombok-maven-plugin</artifactId>
             <version>${project.version}</version>
             <dependencies>
